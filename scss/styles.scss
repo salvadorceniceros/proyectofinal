@@ -168,6 +168,36 @@ header{
     }
 }
 
+// Mi calendario
+.novedades{
+    .calendario{
+        text-align: center;
+        ol{
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            padding: 0;
+        }
+        .diauno{
+            grid-column-start: 3;
+        }
+        a{
+            text-decoration: none;
+            color: $color-secundario;
+        }
+        .diacatorce, .diaquince, .diadieciseis, .diadiecinueve, .diaveinte, .diaveintiuno, .diaveintidos{
+            background-color: $color-principal;
+            color: $color-secundario;
+            border-radius: 20%;
+            margin: 2px;
+        }
+        .nombre-dia{
+            background: #24303c;
+            color: white;
+            margin: 1px;
+        }
+    }
+}
 // Mi footer con Degradado
 footer {
     margin-top: 15px;
@@ -188,6 +218,34 @@ footer {
         border-bottom-left-radius: 0.5rem;
         border-bottom-right-radius: 0.5rem;}
 }
+
+// mis Noticias
+.noticias{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.noticias div{
+	width: 300px;
+}
+.noticias div div.desc{
+	background-color: #ffffff;
+	padding: 10px;
+}
+noticias div img{
+	width: 100%;
+	position: relative;
+}
+.noticias div h1{
+	font-size: 20px;
+	color: #000;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
 
 // ejemplos de cards
 .configuracion{

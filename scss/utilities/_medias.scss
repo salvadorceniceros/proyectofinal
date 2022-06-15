@@ -81,9 +81,9 @@ footer{
     }
     .novedades{
         grid-area: novedades;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        justify-items: center;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
         margin: 0 1rem;
         background-color: #F0F4F7;
     }

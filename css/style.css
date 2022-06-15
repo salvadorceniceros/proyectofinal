@@ -137,6 +137,28 @@ header .carousel-efecto img {
     font-size: 18px;
     color: #ffff; }
 
+.novedades .calendario {
+  text-align: center; }
+  .novedades .calendario ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0; }
+  .novedades .calendario .diauno {
+    grid-column-start: 3; }
+  .novedades .calendario a {
+    text-decoration: none;
+    color: #ffff; }
+  .novedades .calendario .diacatorce, .novedades .calendario .diaquince, .novedades .calendario .diadieciseis, .novedades .calendario .diadiecinueve, .novedades .calendario .diaveinte, .novedades .calendario .diaveintiuno, .novedades .calendario .diaveintidos {
+    background-color: #b01e37;
+    color: #ffff;
+    border-radius: 20%;
+    margin: 2px; }
+  .novedades .calendario .nombre-dia {
+    background: #24303c;
+    color: white;
+    margin: 1px; }
+
 footer {
   margin-top: 15px;
   background-color: #F0F4F7;
@@ -153,6 +175,31 @@ footer {
     color: #ffff;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem; }
+
+.noticias {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.noticias div {
+  width: 300px; }
+
+.noticias div div.desc {
+  background-color: #ffffff;
+  padding: 10px; }
+
+noticias div img {
+  width: 100%;
+  position: relative; }
+
+.noticias div h1 {
+  font-size: 20px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 10px; }
 
 .configuracion {
   padding: 0;
@@ -230,9 +277,9 @@ footer {
     grid-area: complemento; }
   .novedades {
     grid-area: novedades;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 1rem;
     background-color: #F0F4F7; }
   .mapa {
