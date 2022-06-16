@@ -159,23 +159,6 @@ header .carousel-efecto img {
     color: white;
     margin: 1px; }
 
-footer {
-  margin-top: 15px;
-  background-color: #F0F4F7;
-  grid-area: footer; }
-  footer h3 {
-    font-size: 1rem;
-    text-align: center; }
-  footer h4 {
-    font-size: 0.8rem;
-    text-align: center; }
-  footer .degradado {
-    background: #0097b5;
-    background: linear-gradient(90deg, #0097b5 0%, #095f79 52%, #0097b5 100%);
-    color: #ffff;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem; }
-
 .noticias {
   display: flex;
   justify-content: center;
@@ -253,6 +236,26 @@ footer {
 
 .publicaciones p {
   text-align: justify; }
+
+footer {
+  margin-top: 15px;
+  background-color: #F0F4F7;
+  grid-area: footer; }
+  footer .identidad {
+    display: flex;
+    justify-content: center; }
+  footer h3 {
+    font-size: 1rem;
+    text-align: center; }
+  footer h4 {
+    font-size: 0.8rem;
+    text-align: center; }
+  footer .degradado {
+    background: #0097b5;
+    background: linear-gradient(90deg, #0097b5 0%, #095f79 52%, #0097b5 100%);
+    color: #ffff;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; }
 
 /* Este es el tamaño para dispositivos mobiles*/
 .container {

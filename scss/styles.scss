@@ -198,27 +198,6 @@ header{
         }
     }
 }
-// Mi footer con Degradado
-footer {
-    margin-top: 15px;
-    background-color: #F0F4F7;
-    grid-area: footer;
-	h3 {
-		font-size: 1rem;
-		text-align: center;
-	}
-    h4 {
-        font-size: 0.8rem;
-        text-align: center;
-    }
-    .degradado {
-        background: rgb(0,151,181);
-        background: linear-gradient(90deg, rgba(0,151,181,1) 0%, rgba(9,95,121,1) 52%, rgba(0,151,181,1) 100%);
-        color: $color-secundario;
-        border-bottom-left-radius: 0.5rem;
-        border-bottom-right-radius: 0.5rem;}
-}
-
 // mis Noticias
 .noticias{
 	display: flex;
@@ -307,5 +286,31 @@ footer {
         text-align: justify;
     }
 }
+
+// Mi footer
+footer {
+    .identidad{
+        display: flex;
+        justify-content: center;
+    }
+    margin-top: 15px;
+    background-color: #F0F4F7;
+    grid-area: footer;
+	h3 {
+		font-size: 1rem;
+		text-align: center;
+	}
+    h4 {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .degradado {
+        background: rgb(0,151,181);
+        background: linear-gradient(90deg, rgba(0,151,181,1) 0%, rgba(9,95,121,1) 52%, rgba(0,151,181,1) 100%);
+        color: $color-secundario;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;}
+}
+
 
 @import "utilities/medias";
