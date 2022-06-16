@@ -60,7 +60,8 @@ header .carousel-efecto img {
 
 .container-tarjeta {
   padding: 0 0.2rem;
-  margin: 0.1rem 0.3rem; }
+  margin: 0.1rem 0.3rem;
+  justify-content: center; }
   .container-tarjeta img {
     display: block;
     filter: grayscale(45%);

@@ -74,6 +74,7 @@ header{
 .container-tarjeta{
     padding: 0 0.2rem;
     margin: 0.1rem 0.3rem;
+    justify-content: center;
 
     img{
         display: block;
@@ -229,13 +230,11 @@ header{
 .noticias-principal{
     width: 99%;
     height: auto; overflow: hidden;
-    // border: 1px solid;
     margin: 0px auto;
 }
 .publicaciones{
     display: flex;
     height: auto; overflow: hidden;
-    // border: 1px solid red;
     margin-top: 0px;}
 .post{
     width: 99%;
