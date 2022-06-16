@@ -118,6 +118,16 @@ header{
         border-top-right-radius: 0.7rem;
     }
 }
+.container{
+    .principal{
+        img{
+            width: 100%;
+            border-radius: 1rem;
+            border: 2px solid $color-principal;
+            box-shadow: 7px 3px 2px $color-principal
+        }
+    }
+}
 
 // Aplicando los estilos al formulario
 .form-registro {

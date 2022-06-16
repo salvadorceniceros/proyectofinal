@@ -92,6 +92,12 @@ header main p {
     border-top-left-radius: 0.7rem;
     border-top-right-radius: 0.7rem; }
 
+.container .principal img {
+  width: 100%;
+  border-radius: 1rem;
+  border: 2px solid #b01e37;
+  box-shadow: 7px 3px 2px #b01e37; }
+
 .form-registro {
   width: 400px;
   background-color: #24303c;
