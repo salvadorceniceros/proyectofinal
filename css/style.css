@@ -254,23 +254,6 @@ footer {
 .publicaciones p {
   text-align: justify; }
 
-.configuracion {
-  padding: 0;
-  margin: 0;
-  background-color: #000;
-  color: #F0F4F7;
-  min-height: 100vh;
-  display: flex;
-  align-items: center; }
-
-.tarjetas {
-  padding: 0 2rem; }
-
-.card-section {
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: repeat(auto-fill, 1fr); }
-
 /* Este es el tamaño para dispositivos mobiles*/
 .container {
   display: grid;
