@@ -74,7 +74,7 @@ header{
 .container-tarjeta{
     padding: 0 0.2rem;
     margin: 0.1rem 0.3rem;
-    justify-content: center;
+    justify-content: space-between;
 
     img{
         display: block;
@@ -86,9 +86,9 @@ header{
     .tarjeta-section{
         display: grid;
         gap: 0.2rem;
-        /* grid-template-rows: 28rem; */
-       grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
+       grid-template-columns: repeat(auto-fit, minmax(15.5rem, 1fr));
        grid-template-rows: repeat(auto-fill, 1fr);
+
     }
     
     .tarjeta{
