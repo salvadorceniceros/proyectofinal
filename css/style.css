@@ -191,7 +191,7 @@ footer {
   background-color: #ffffff;
   padding: 10px; }
 
-noticias div img {
+.noticias div img {
   width: 100%;
   position: relative; }
 
@@ -200,6 +200,59 @@ noticias div img {
   color: #000;
   margin-top: 0;
   margin-bottom: 10px; }
+
+/* - Contenido de las noticias */
+.noticias-principal {
+  width: 99%;
+  height: auto;
+  overflow: hidden;
+  margin: 0px auto; }
+
+.publicaciones {
+  display: flex;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0px; }
+
+.post {
+  width: 99%;
+  height: auto;
+  overflow: hidden;
+  padding: 5px;
+  background-color: #fdfdfd;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #b01e37;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #ccc;
+  margin: 0 2px; }
+
+.noticias a img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+  border-radius: 50%; }
+
+.enlace-post {
+  text-decoration: none; }
+
+.publicaciones a .titulo-post {
+  color: #b01e37;
+  font-weight: normal; }
+
+.publicaciones a .titulo-post:hover {
+  font-weight: bold;
+  font-size: 1.2rem; }
+
+.publicaciones .img-post {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 50%;
+  padding-right: 2px; }
+
+.publicaciones p {
+  text-align: justify; }
 
 .configuracion {
   padding: 0;
